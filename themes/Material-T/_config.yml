@@ -1,0 +1,91 @@
+#---------------------------
+# Material-T
+# 一个基于Material Design风格的主题
+# Author: invom
+# Github: https://github.com/invom/Material-T
+#---------------------------
+
+#---------------------------
+# 全局
+# Site
+#---------------------------
+favicon: ../img/favicon.png
+apple_touch_icon: ../img/apple-icon.png
+
+
+#---------------------------
+# 首页
+# Index Page
+#---------------------------
+subtitle:
+  enable: true
+
+index_head_img: https://i.loli.net/2018/10/13/5bc1af44bb064.jpg 
+
+#---------------------------
+# 导航栏
+# Head Navbar
+#---------------------------
+menu:
+  enable: true
+  list:
+    archives: /archives/
+    #Projects: /projects/
+    about: /about/
+  
+
+social_icons:
+  enable: true
+  tips: 'See me here'
+  list: 
+    github: https://github.com/invom
+    twitter: https://twitter.com/faultymach1ne
+  
+
+#---------------------------
+# 文章页
+# Post Page
+#---------------------------
+comments_type: 'disqus'
+disqus: 
+  shortname: invomblog
+
+toc: 
+  enable: true
+
+# Code Highlight
+# Theme available: github | tomorrow | tomorrow-night | tomorrow-night-eighties
+highlight:
+  enable: true
+  theme: tomorrow-night-eighties
+
+
+#---------------------------
+# 归档页
+# Archive Page
+#---------------------------
+archive_head_img: https://i.loli.net/2018/10/25/5bd1a7df56217.jpg
+
+
+#---------------------------
+# 关于页
+# About Page
+#---------------------------
+about:
+  head_img: https://i.loli.net/2018/10/18/5bc8833e75953.jpg
+  avatar: https://i.loli.net/2018/10/12/5bc074d44218b.jpg 
+  name: invom
+  job: Student
+  introduce: 安全萌新/bug制造者/小米农
+  extension: 
+
+about_icons: 
+  github: https://github.com/invom
+  twitter: https://twitter.com/faultymach1ne
+
+
+#---------------------------
+# 底部信息
+# Footer
+#---------------------------
+footer: <b>多喝热水</b>
