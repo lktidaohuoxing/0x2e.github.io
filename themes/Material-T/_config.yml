@@ -27,7 +27,8 @@ index:
     length: 175
   # available: _blank | _self
   post_url_target: _self
-
+  post_info:
+    enable: true
 
 #---------------------------
 # 导航栏
