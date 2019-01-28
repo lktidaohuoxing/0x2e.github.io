@@ -8,7 +8,7 @@
 # 全局
 # Site
 #---------------------------
-favicon: /favicon.ico
+favicon: /favicon.png
 apple_touch_icon: /apple-touch-icon.png
 
 
@@ -17,9 +17,17 @@ apple_touch_icon: /apple-touch-icon.png
 # Index Page
 #---------------------------
 index: 
+  banner_img: /img/index-banner.jpg
+  # available: 0 - 100
+  banner_img_height: 100
   subtitle:
     enable: true
-  head_img: /img/index-head.jpg
+  auto_excerpt:
+    enable: true
+    length: 175
+  # available: _blank | _self
+  post_url_target: _self
+
 
 #---------------------------
 # 导航栏
@@ -36,7 +44,7 @@ navbar:
     tips: 'See me here'
     list: 
       github: https://github.com/invom
-      twitter: https://twitter.com/faultymach1ne
+      twitter: https://twitter.com/FaultyMach1ne
   
 
 #---------------------------
@@ -44,7 +52,11 @@ navbar:
 # Post Page
 #---------------------------
 post: 
-  head_img: /img/post-head.jpg
+  banner_img: /img/post-banner.jpg
+  # available: 0 - 100
+  banner_img_height: 70
+  # available: 1 | 2
+  layout: 2
   comments_type: 'disqus'
   disqus: 
     shortname: invomblog
@@ -63,22 +75,26 @@ highlight:
 # Archive Page
 #---------------------------
 archive: 
-  head_img: /img/archive-head.jpg
+  banner_img: /img/archive-banner.jpg
+  # available: 0 - 100
+  banner_img_height: 80
 
 #---------------------------
 # 关于页
 # About Page
 #---------------------------
 about:
-  head_img: /img/about-head.jpg
+  banner_img: /img/about-banner.jpg
+  # available: 0 - 100
+  banner_img_height: 70
   avatar: /img/avatar.jpg 
   name: invom
   job: Student
-  introduce: 安全萌新/bug制造者/小米农
+  introduce: 安全萌新/bug爱好者/非主流小米农
   extension: 
   icons: 
     github: https://github.com/invom
-    twitter: https://twitter.com/faultymach1ne
+    twitter: https://twitter.com/FaultyMach1ne
 
 
 #---------------------------
