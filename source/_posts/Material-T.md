@@ -1,31 +1,63 @@
 ---
-title: Material-T
-date: 2018-10-31 17:48:46
-tags: HEXO
-index_img: ../post_img/Material-T-1.jpg
+title: New Material-T
+date: 2019-03-05 15:41:09
+tags: Hexo
+index_img: /post_img/New-Material-T.jpg
 ---
 
-### 前言
+# Heading
 
-写这个主题也算是酝酿已久，之前用wordpress的时候没有找到非常满意的MaterialDesign主题，HEXO下的MD主题是属于中规中矩的，看多了有点审美疲劳。于是结合前面dalao们的思路写了Material-T。css主要是来自[MaterialKit](https://github.com/creativetimofficial/material-kit)
+# h1.heading
+## h2.heading
+### h3.heading
+#### h4.heading
+##### h5.heading
+###### h6.heading
 
-<!-- more -->
+----
 
-Material-T大部分是按照自己的想法来的，比较任性，以后逐渐完善吧。
+# Inline text elements
 
-### 当前功能
+[link link link](http://example.net/)
 
-- Tags分类
-- About Page,Archive Page
-- 评论：Disqus
-- 文章首页略缩图
+*italics italics italics*
 
-### TODO
+**bold bold bold**
 
-- Projects Page,Friends Page
-- 支持Gitment、Valine(valine的作者也是最早star的同学之一，感谢)
-- CSS去冗
+~~strikethrough strikethrough strikethrough~~
 
-### 贡献
+<u>underline underline underline</u>
 
-希望有更多同学参与Material-T的开发，期待您的Pull Request。
+----
+
+# Code highlight
+
+```python
+from flask import Flask
+app = Flask(__name__)
+
+app.route("/")
+def hello_world() :
+    return “Hello World!"
+
+if __name__ == "__main__" :
+    app.run()
+```
+
+----
+
+# Blockquotes
+
+> Markdown uses email-style `>` characters for blockquoting. If you’re familiar with quoting passages of text in an email message, then you know how to create a blockquote in Markdown. It looks best if you hard wrap the text and put a > before every line
+
+----
+
+# Lists
+
+- item
+- item
+- item
+
+1. item1
+2. item2
+3. item3
