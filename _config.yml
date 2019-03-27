@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: invom's blog
+title: rook1e's blog
 subtitle: life's a struggle
-description: invom's  blog.
-keywords: invom's blog
-author: invom
+description: rook1e's  blog.
+keywords: rook1e's blog
+author: rook1e
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://invom.github.io/
+url: https://0x2e.github.io/
 root: /
 permalink: :year/:title.html
 permalink_defaults:
@@ -87,5 +87,5 @@ theme: Material-T
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://GIT_TOKEN@github.com/invom/invom.github.io.git
+  repo: https://GIT_TOKEN@github.com/0x2e/0x2e.github.io.git
   branch: master
